@@ -25,8 +25,8 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         version: 12
-    - name: Yaml-Checker
-      uses: leon-th/yaml-checker@v1.0.0
+    - name: action-yarn
+      uses: comchangs/action-yarn@v0.1-beta
       with:
         #Yarn cmd
           cmd: install 
