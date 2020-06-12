@@ -26,7 +26,7 @@ jobs:
       with:
         version: 12
     - name: YAML Lint
-      uses: ibiqlik/action-yamllint@v2-beta
+      uses: ibiqlik/action-yamllint@v1.0.0
       with:
         #Yarn cmd
           cmd: install 
